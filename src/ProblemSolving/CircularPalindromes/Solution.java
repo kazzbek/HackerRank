@@ -8,9 +8,6 @@ import java.util.regex.*;
 
 public class Solution {
 
-    /*
-     * Complete the circularPalindromes function below.
-     */
     static int[] circularPalindromes(String s) {
         int result[] = new int[s.length()];
         String subStr;
